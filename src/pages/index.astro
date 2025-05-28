@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NavBar from "../components/NavBar.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+import hero1 from "../assets/Images/heroimage1.jpg";
+import hero2 from "../assets/Images/heroimage2.png";
+---
+
+<Layout>
+	<section>
+		<NavBar />
+	</section>
+
+	<section class="items-center flex flex-col justify-center gap-10">
+		<div>
+			<img class="w-350 h-100 object-cover" src={hero1.src} alt="" />
+		</div>
+
+		<div style="background-color: #d4e9e2;" class="flex w-350">
+			<div class="w-175 place-items-center place-self-center">
+				<h1
+					class="text-6xl w-150 text-center font-bold"
+					style="color: #00754a;"
+				>
+					Unite a algo más grande
+				</h1>
+				<br />
+				<h3 style="color: #00754a;" class="text-2xl">
+					Revisa las oportunidades que tenemos para vos
+				</h3>
+				<br />
+
+				<button
+					style="color: #00754a; border:solid #00754a;"
+					class="rounded-2xl w-30">Postular acá</button
+				>
+			</div>
+			<div class="w-175">
+				<img src={hero2.src} alt="" />
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<Footer />
+	</section>
+</Layout>
