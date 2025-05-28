@@ -1,18 +1,29 @@
 ---
 import logo from "../assets/Images/logo.png";
 import location from "../assets/Images/location.svg";
+import "../styles/global.css";
 ---
 
 <main class="flex lg:gap-120 font-bold shadow-2xl text-lg justify-center">
     <div class="flex gap-10 h-30 items-center">
-        <img class="w-20" src={logo.src} alt="" />
-        <p class="hover:cursor-pointer hover:text-green-700 hover:underline">Menu</p>
-        <p class="hover:cursor-pointer hover:text-green-700 hover:underline">Café</p>
-        <p class="hover:cursor-pointer hover:text-green-700 hover:underline">Experiencia Starbucks</p>
+        <a href="/">
+            <img class="cursor-pointer w-20" src={logo.src} alt="" />
+        </a>
+        <p class="hover:cursor-pointer hover:text-green-700 hover:underline">
+            <a href="/Menu">Menu</a>
+        </p>
+        <p class="hover:cursor-pointer hover:text-green-700 hover:underline">
+            Café
+        </p>
+        <p class="hover:cursor-pointer hover:text-green-700 hover:underline">
+            Experiencia Starbucks
+        </p>
     </div>
 
     <div class="flex h-30 items-center">
         <img class="w-7" src={location.src} alt="" />
-        <p class="hover:cursor-pointer hover:text-green-700 hover:underline">Localizar en el mapa</p>
+        <p class="hover:cursor-pointer hover:text-green-700 hover:underline">
+            Localizar en el mapa
+        </p>
     </div>
 </main>
