@@ -1,3 +1,10 @@
+
+⚠️ Disclaimer Este proyecto es un clon no oficial de la página web de Starbucks, creado únicamente con fines educativos y de práctica personal.  Todos los derechos sobre las marcas, logotipos, imágenes y contenidos originales pertenecen a Starbucks Corporation.  No tengo ninguna afiliación con Starbucks, y este proyecto no debe ser utilizado con fines comerciales ni redistribuido como si fuera un producto oficial.  Si eres parte del equipo legal de Starbucks y deseas que este repositorio sea eliminado o modificado, no dudes en contactarme.
+
+
+
+
+
 # Astro Starter Kit: Basics
 
 ```sh
